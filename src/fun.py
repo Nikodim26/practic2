@@ -1,6 +1,5 @@
 import requests
 
-
 def get_user_info(user: str) -> tuple[bool, dict]:
     response = requests.get(f"https://api.github.com/users/{user}")
     if response.status_code != 200:

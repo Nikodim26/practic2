@@ -1,6 +1,6 @@
 import json
 
-from fun import get_user_info, get_user_repos
+from src.fun import get_user_info, get_user_repos
 
 
 def get_github_users(users):
